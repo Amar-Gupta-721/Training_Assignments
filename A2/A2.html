@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        *{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <form action="">
+        <div>    <label>NAME </label><input type="text" placeholder="Name">
+        </div><br>
+        <div>    <label>E-mail </label><input type="email" placeholder="email"><br>
+        </div><br>
+        <div>    <label>PASSWORD </label><input type="password" placeholder="password"><br>
+        </div><br>
+        <div>
+            <!-- for===id -->
+            <p>Language</p>
+            <input type="radio" id="HTML" name="Language" value="HTML">
+            <label for="HTML">HTML</label><br>
+            <input type="radio" id="CSS" name="Language" value="CSS">
+            <label for="CSS">CSS</label><br>
+            <input type="radio" id="JS" name="Language" value="JS">
+            <label for="JS">JS</label>
+        </div>
+        <div>
+            <p>Course</p>
+            <input type="checkbox" name="Course" id="ABCD">
+            <label for="ABCD">ABCD</label><br>
+            <input type="checkbox" name="Course" id="EFGH">
+            <label for="EFGH">EFGH</label><br>
+            <input type="checkbox" name="Course" id="IJKL">
+            <label for="IJKL">IJKL</label>
+        </div>
+        <div>
+            <p>Field : </p>
+            <select name="Field" id="Field">
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+                <option value="">JS</option>
+            </select>
+        </div><br>
+        <div>
+            <textarea name="" id="" placeholder="describe yourself"></textarea>
+        </div><br>
+        <div>
+            <input type="date"><br>
+        </div>
+        <div><br>
+            <span>Phone no </span><input type="number" name="" id="" placeholder="Phone no"><br>
+        </div><br>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+    <br>
+    <a href="./Table.html" target="_blank">Click here for table file</a>
+</body>
+</html>
